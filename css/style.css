@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header{
+    position: relative;
+    background-color: #0E0E10;
+    color: white; /* placeholder */
+    min-height: 88vh;
+}
+
+p{
+    line-height: 35px;
+}
+
+nav{
+    z-index: 1;
+    background-color: #0E0E10;
+    text-align: right;
+    padding: 3rem;
+    padding-right: 4rem;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #D94EFF;
+    font-size: 1.8rem;
+    padding-left: 1.4rem;
+    transition: 0.1s ease;
+}
+
+nav a:hover,
+nav a:active{
+    transform: scale(1.1);
+}
+
+img{
+    border: transparent;
+    border-radius: 50px;
+    filter: drop-shadow(0 0 20px #D94EFF);
+}
+
+.logo{
+    padding-left: 25rem;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title{
+    padding-left: 3rem;
+    max-width: 600px;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #D94EFF;
+}
+
+.main-img{
+    width: 21%;
+    height: 21%;
+}
+
+.custom-shape-divider-bottom-1748013306 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1748013306 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 167px;
+}
+
+.custom-shape-divider-bottom-1748013306 .shape-fill {
+    fill: white;
+}
+
+.work{
+    font-size: 2rem;
+    padding-top: 20rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.mywork{
+    padding-left: 1em;
+}
+
+.work-section{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-textbox{
+    max-width: 600px;
+    color: black;
+
+    /*
+    background-color: #0E0E10;
+    color: white;
+    border: transparent;
+    border-radius: 6rem;
+    box-shadow: 0 0 50px #D94EFF;
+    */
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.nature-img{
+    width: 40%;
+    height: 40%;
+}
+
+.art-img{
+    width: 40%;
+    height: 40%;
+}
+
+.football-img{
+    width: 40%;
+    height: 40%;
+}
