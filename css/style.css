@@ -104,7 +104,7 @@ hr{
     fill: white;
 }
 
-.work{
+.work, .prices{
     font-size: 2rem;
     padding-top: 20rem;
     padding-left: 18rem;
@@ -123,6 +123,7 @@ h2{
 
 .work-section{
     padding-top: 5em;
+    padding-bottom: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,7 +240,7 @@ select{
 }
 
 .book-button{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     border: 2px transparent;
     color: white;
     font-weight: bold;
@@ -268,3 +269,108 @@ footer{
     font-size: 1.1rem;
     opacity: 60%;
 }
+
+/* Prices */
+.prices {
+    padding-top: 12rem;
+}
+
+.price-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.price-container{
+    background-color: whitesmoke;
+    width: 400px;
+    min-height: 500px;
+    padding: 2rem;
+    box-shadow: 6px 6px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.price-container ul{
+    font-size: 0.8em;
+    width: 80%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2em;
+
+    list-style-type: none;
+}
+
+.price-container ul li::before{
+    padding-right: 10px;
+    content: "✔";
+    color: green;
+    font-size: 1.5em;
+}
+
+.price-tag{
+    font-size: 1.6em;
+    opacity: 70%;
+}
+
+.price-container > :nth-last-child(1){
+    margin-top: -15px;
+}
+
+.price-container a{
+    color: gray;
+    font-size: 0.6em;
+}
+
+.standard{
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+
+.advanced{
+    border: 3px solid orange;
+    border-radius: 20px;
+}
+
+.premium{
+    border: 3px solid #D94EFF;
+    border-radius: 20px;
+}
+
+.price-container h3{
+    font-size: 1.7em;
+}
+
+.standard h3{
+    color: rgb(76, 76, 76);
+}
+
+.advanced h3{
+    color: orange;
+}
+
+.premium h3{
+    color: #D94EFF;
+}
+
+.standard button{
+    background-color: gray;
+}
+
+.advanced button{
+    background-color: orange;
+}
+
+.premium button{
+    background-color: #D94EFF;
+}
+
+
