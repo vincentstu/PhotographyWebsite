@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="single-page">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#work">Work</a>
+        <a href="#">Prices</a>
+        <a href="#">Booking</a>
+        <a href="#">About</a>
+    </nav>
+
+    <header>
+    </header>
+
+    <main id="booking">
+        <div class="frame">
+            <h1>Book Me</h1>
+            <form class="booking-form">
+                <label class="info-label">Enter Your Information:</label>
+                <input type="text" placeholder="First Name" class="booking-input" required>
+                <input type="text" placeholder="Last Name" class="booking-input" required>
+                <input type="email" placeholder="Email" class="booking-input" required>
+                <label class="info-label">Enter Your Occasion:</label>
+                <select name="occasion" id="occasion">
+                    <option value="wedding">
+                        Wedding
+                    </option>
+                    <option value="sport">
+                        Sport Event
+                    </option>
+                    <option value="pass">
+                        Pass Pictures
+                    </option>
+                </select>
+                <button type="submit" class="book-button booking-input">Book</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

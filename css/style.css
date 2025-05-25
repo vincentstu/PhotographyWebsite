@@ -5,7 +5,11 @@
     font-family: monospace;
 }
 
-header{
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
     position: relative;
     background-color: #0E0E10;
     color: white; /* placeholder */
@@ -18,7 +22,8 @@ p{
 
 nav{
     z-index: 1;
-    background-color: #0E0E10;
+    /*background-color: #0E0E10;*/
+    background-image: linear-gradient(to top, #0E0E10, hsl(240, 6%, 25%));
     text-align: right;
     padding: 3rem;
     padding-right: 4rem;
@@ -46,6 +51,11 @@ img{
     filter: drop-shadow(0 0 20px #D94EFF);
 }
 
+hr{
+    border: 2px solid black;
+    margin-top: 3rem;
+}
+
 .logo{
     padding-left: 25rem;
     padding-top: 8rem;
@@ -61,7 +71,7 @@ img{
     font-size: 2rem;
 }
 
-h1{
+.home{
     font-size: 4em;
     font-weight: bolder;
     text-transform: uppercase;
@@ -118,6 +128,10 @@ h2{
     align-items: center;
 }
 
+.work-section:nth-child(5){
+    padding-bottom: 5em;
+}
+
 .work-textbox{
     max-width: 600px;
     color: black;
@@ -139,6 +153,9 @@ h2{
     text-align: right;
 }
 
+
+/* Images */
+
 .nature-img{
     width: 40%;
     height: 40%;
@@ -152,4 +169,102 @@ h2{
 .football-img{
     width: 40%;
     height: 40%;
+}
+
+
+/* Booking page */
+
+.single-page{
+    height: 100vh;
+}
+
+#booking{
+    height: 89.7%;
+    background-image: linear-gradient(to top, gray, white);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#booking h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.info-label{
+    font-size: 1.5rem;
+    opacity: 80%;
+}
+
+.frame{  
+    width: 500px;
+    height: 700px;
+    background-color:#0E0E10;
+    border: 3px solid #D94EFF;
+    border-radius: 20px;
+    box-shadow: 15px 15px 5px rgb(95, 95, 95);
+
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.booking-form{
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.booking-input{
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 40px;
+    width: 300px;
+    border: 2px solid #D94EFF;
+    border-radius: 8px;
+}
+
+select{
+    height: 38px;
+    border: 2px solid #D94EFF;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.book-button{
+    font-size: 1.5em;
+    border: 2px transparent;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: hsl(287, 87%, 73%);
+}
+
+footer{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footer-nav {
+    font-size: 1.4rem;
+}
+
+.footer-nav a{
+    text-decoration: none;
+}
+
+.copyright{
+    font-size: 1.1rem;
+    opacity: 60%;
 }
