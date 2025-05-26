@@ -36,7 +36,7 @@ nav a{
     text-decoration: none;
     color: #D94EFF;
     font-size: 1.8rem;
-    padding-left: 1.4rem;
+    padding-left: 1.8rem;
     transition: 0.1s ease;
 }
 
@@ -54,6 +54,10 @@ img{
 hr{
     border: 2px solid black;
     margin-top: 3rem;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .logo{
@@ -372,5 +376,62 @@ footer{
 .premium button{
     background-color: #D94EFF;
 }
+
+/* About */
+.main-about{
+    padding-left: 100px;
+    display: flex;
+    height: 100vh;
+}
+
+.vertical-bar{
+    width: 340px;
+    height: 100%;
+    background-color: #0E0E10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-bar h1{
+    writing-mode: vertical-rl;
+    color: #D94EFF;
+    transform: rotate(180deg);
+    font-size: 10em;
+}
+
+.about-content{
+    padding: 7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+}
+
+.left-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-firstimg{
+    width: 500px;
+    height: 300px;
+}
+
+.about-secondimg{
+    width: 500px;
+    height: 300px;
+}
+
 
 
